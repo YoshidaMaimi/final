@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact|FP Yoshida official website</title>
+  </head>
+
+  <body id="contact">
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="SNAPPERS"/></a>
+      </div>
+      <nav>
+        <ul class="global-nav">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrap">
+      <div class="content">
+        <div class="main-center">
+          <h1>Contact</h1>
+          <p>
+            吉田パンへのアクセス方法、お問合せ、相談のご依頼フォームのページです。お気軽にお問合せください。
+          </p>
+          <section class="access clearfix">
+            <h2 class="icon">Access</h2>
+            <table>
+              <tr>
+                <th>所在地住所</th>
+                <td>〒123-4567<br />東京都港区北青山3-5-6 青朋ビル2F</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>012-3456-7890</td>
+              </tr>
+              <tr>
+                <th>電車でのアクセス</th>
+                <td>
+                  東京メトロ千代田線・半蔵門線・銀座線<br />「表参道」駅徒歩3分
+                </td>
+              </tr>
+            </table>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.392522579181!2d139.7116627146428!3d35.66733578019747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9faa24a54b%3A0x58ba5c5f643c5f28!2sPORTAL%20POINT%20AOYAMA!5e0!3m2!1sja!2sjp!4v1583592206420!5m2!1sja!2sjp"
+              width="420"
+              height="220"
+              frameborder="0"
+              style="border:0;"
+              allowfullscreen=""
+            ></iframe>
+          </section>
+          <section>
+            <h2 class="icon">Contact form</h2>
+            <div class="form">
+              <form>
+                <dl>
+                  <dt><span class="required">お名前</span></dt>
+                  <dd>
+                    <input type="text" name="name" class="name" required />
+                  </dd>
+                  <dt><span class="required">メールアドレス</span></dt>
+                  <dd>
+                    <input type="email" name="email" class="email" required />
+                  </dd>
+                  <dt>お電話番号</dt>
+                  <dd><input type="tel" name="tel" class="tel" /></dd>
+                  <dt>お問合せ種別</dt>
+                  <dd>
+                    <select name="type" class="type">
+                      <option value="LP">ライフプランシュミレーション</option>
+                      <option value="BS">個人のバランスシート分析</option>
+                      <option value="PF">ポートフォリオ運用設計</option>
+                      <option value="else">その他のお問合せ</option>
+                    </select>
+                  </dd>
+                  <dt>ご希望のご連絡方法</dt>
+                  <dd>
+                    <input type="radio" name="contact" value="Email" />Eメール
+                    <input type="radio" name="contact" value="tel" />お電話
+                  </dd>
+                  <dt>メッセージ</dt>
+                  <dd><textarea name="message" class="message"></textarea></dd>
+                </dl>
+                <button type="submit" class="btn">送信</button>
+              </form>
+              <div class="attention">
+                <p>
+                  ※「<span class="required"></span
+                  >」のついている項目は必須項目です。<br />※メッセージ送信後、48時間以内に担当者よりご連絡いたします。
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <small>(c)Feed by measure and defy the physician.</small>
+    </footer>
+  </body>
+</html>
